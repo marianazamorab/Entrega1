@@ -1,3 +1,96 @@
-header{
-    background-color: #f48498
+.navbar {
+    background-color: #453838;
 }
+
+#cine {
+    background-image: url('Media/cine.jpg');
+    background-attachment: fixed;
+    height: auto;
+}
+
+#cardAbout {
+    background-color: #BBA796;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#cardHobbies {
+    background-color: #BBA796;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.icon {
+    margin: 6px;
+}
+
+.hobbies {
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+#video {
+    margin: 4px;
+}
+
+#academic {
+    background-color: #120E0F;
+    color: whitesmoke;
+}
+
+#acText {
+    margin-top: 25px;
+}
+
+#lAcText {
+    margin-bottom: 25px;
+}
+
+.inst {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#GV {
+    margin-left: 15px;
+}
+
+#GVImg {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#projects {
+    background-image: url('Media/projects.jpg');
+    background-attachment: fixed;
+    height: auto;
+}
+
+#cardProjects {
+    background-color: #411F10;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: white;
+}
+
+#H {
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+
+#audio {
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #453838;
+    text-align: center;
+    font-size: 16px;
+}
+ 

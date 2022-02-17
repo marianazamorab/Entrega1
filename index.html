@@ -4,25 +4,148 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="styles.css" />
-    <link rel=”stylesheet”
-    href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”rel=”nofollow”
-    integrity=”sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I”
-    crossorigin=”anonymous”>
     <title>Mariana Zamora</title>
   </head>
   <body>
-    <div class="container">
-        <div class= "row"> 
-          <header>
-              <p class= "col-3">Mariana Zamora</p>
-          </header>
-       </div>
-
-      <footer>
-
-      </footer>
-
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <a class="navbar-brand" href="#">Mariana Zamora</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#cardAbout">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cardHobbies">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#academic">Academic Info.</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cardProjects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+      <div id="cine" class= "row justify-content-center"> 
+        <div id= "cardAbout" class= "card col-lg-4 col-md-5">
+          <div class= "card-body">
+            <h5 class= "card-title text-center">About Me</h5>
+            <p> Hi! My name is Mariana Zamora, I am 20 years old. I study Systems and Computing Engineering and Psychology at Universidad de los Andes</p>
+            <div>
+                  <img src="./Media/compu.png" alt="Computer">
+                  <img src="./Media/brain.png" alt="Brain">
+            </div>
+            <p>I am interested in software development and human behaviour, and I hope to be able to work in both in the future </p>
+            <div>
+              <p>I also love animals, specially my dog that can be seen in the picture below</p>
+              <img src="./Media/max.jpeg" alt="My dog Max">
+            </div>
+          </div>
+        </div>
+        <div id= "cardHobbies" class= "card col-lg-4 col-md-5">
+          <div class= "card-body">
+            <h5 class= "card-title text-center">Hobbies / Things I like</h5>
+            <div class="row hobbies justify-content-center">
+              <img class="img-responsive col-lg-2 col-md-2" src="./Media/cinema.png" alt="Music">
+              <p class="col-lg-5 col-md-6"> Movies </p>
+            </div>
+            <div class="row hobbies justify-content-center">
+              <p class="col-lg-5 col-md-6"> Listening to music </p>
+              <img class="img-responsive col-lg-2 col-md-2" src="./Media/music.png" alt="Music">
+            </div>
+            <div class="row hobbies justify-content-center">
+              <img class="img-responsive col-lg-2 col-md-2" src="./Media/camera.png" alt="Camera">
+              <p class="col-lg-5 col-md-6"> Photography </p>
+            </div>
+            <div class="row hobbies justify-content-center">
+              <p class="col-lg-5 col-md-6"> Travel </p>
+              <img class="img-responsive col-lg-2 col-md-2" src="./Media/travel.png" alt="Travel">
+            </div>
+            <div class="row hobbies justify-content-center">
+              <img class="img-responsive col-lg-2 col-md-2" src="./Media/friends.png" alt="Friends">
+              <p class="col-lg-5 col-md-6"> Hangout with friends </p>
+            </div>
+            <p>My favorite song is:</p>
+            <div id="video" class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="./Media/song.mp4" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div id="academic" class="row">
+        <h4 id= "acText" class="text-center"> Academic Information </h4>
+          <div class="row justify-content-center">
+            <div class="text-center col-5 inst">
+              <h5 id="GV">Gimnasio Vermont</h5>
+              <figure class="figure">
+                <a href="https://www.gimnasiovermont.edu.co/" target="_blank">
+                <img id="GVImg" src="./Media/school.png" class="img-responsive"alt="Gimnasio Vermont" >
+                </a>
+                <figcaption class="figure-caption">Click here to vistit the school's web page</figcaption>
+              </figure>
+              <p>I completed highschool at Gimnasio Vermont School. I studied there for 14 years and graduated in june 2019. I recieved the award of best student in the graduation</p>
+            </div>
+            <div class="text-center col-5 inst">
+              <h5 id="GV">Universidad de los Andes</h5>
+                <figure class="figure">
+                  <a href="https://uniandes.edu.co/" target="_blank">
+                  <img src="./Media/uniandes.png" class="img-responsive"alt="Gimnasio Vermont" >
+                  </a>
+                  <figcaption class="figure-caption">Click here to vistit the school's web page</figcaption>
+                </figure>
+                <p>I am currently studying at Universidad de los Andes. I am pursuing 2 majors: Systems and Computing Engineering and Psychology</p>
+            </div>
+          </div>
+          <h5 id= "acText" class="text-center"> Abilities </h5>
+          <div class="text-center">
+            <li> Programming Languages: 
+              Python, Java, JavaScript </li>
+            <li> Technologies:
+              Angular, Django, GitHub, AWS</li>
+          </div>
+          <h5 id="acText" class="text-center"> Experience </h5>
+          <div id="lAcText"class="text-center">
+            <li> Ivestigation Assistant at CupiTaller Uniandes </li>
+          </div>
+      </div>
+      <div id="projects" class= "row justify-content-center">
+        <div id= "cardProjects" class= "card col-9 mx-auto">
+          <div class= "card-body">
+            <h5 class= "card-title">Projects</h5>
+            <div id="H" class="row justify-content-center">
+              <figure class="figure">
+                <img class="rounded" src="./Media/Hogar.png" alt="Camera">
+                <figcaption class="figure-caption">Hogarineitor</figcaption>
+              </figure>
+            <p>
+              The project consisted of a web page for the comparison of prices of home appliances.
+              It was done as the mid-major project.
+              I worked with a group of 5 people in the development of this platform
+            </p>
+            <p>For a description of the project listen to the audio below</p>
+            </div>
+            <audio id="audio" controls>
+              <source src="./Media/project.mp3">
+            </audio>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class= "footer">
+      <a href="https://github.com/marianazamorab" target="_blank"><img class="icon" src="./Media/git.png" width="30" alt="GitHub"></a>
+      <a href="mailto: m.zamorab@uniandes.edu.co" target="_blank"><img class="icon" src="./Media/correo.png" width="30" alt="Email"></a>
+      <a href="https://www.instagram.com/marianazamorab/" target="_blank"><img class="icon" src="./Media/instagram.png" width="30" alt="Email"></a>
     </div>
   </body>
 </html>
